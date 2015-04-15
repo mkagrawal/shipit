@@ -1,0 +1,222 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="?android:windowBackground"
+    android:layout_height="match_parent" tools:context=".AddressFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tV1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Source"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/sname"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textinputborder"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:text="Name"
+            android:padding="10dp"
+            android:textSize="10sp"/>
+        <EditText
+            android:id="@+id/sphoneno"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textinputborder"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:text="Phone Number"
+            android:padding="10dp"
+            android:textSize="10sp"
+            />
+
+
+
+        <EditText
+            android:id="@+id/saddr1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textinputborder"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:text="Address Line 1"
+            android:padding="10dp"
+            android:textSize="10sp"
+           />
+
+        <EditText
+            android:id="@+id/saddr2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textinputborder"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:text="Address Line 2"
+            android:padding="10dp"
+            android:textSize="10sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/sstate"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight = "1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textinputborder"
+                android:layout_marginRight="20dp"
+                android:maxLines="1"
+                android:text="State"
+                android:padding="10dp"
+                android:textSize="12sp"/>
+
+            <EditText
+                android:id="@+id/spin"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight = "1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textinputborder"
+                android:layout_marginRight="20dp"
+                android:maxLines="1"
+                android:text="Pin Code"
+                android:padding="10dp"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tV2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Destination"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/dname"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textinputborder"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:text="Name"
+            android:padding="10dp"
+            android:textSize="10sp"/>
+        <EditText
+            android:id="@+id/dphoneno"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textinputborder"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:text="Phone Number"
+            android:padding="10dp"
+            android:textSize="10sp"
+            />
+
+
+
+        <EditText
+            android:id="@+id/daddr1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textinputborder"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:text="Address Line 1"
+            android:padding="10dp"
+            android:textSize="10sp"
+            />
+
+        <EditText
+            android:id="@+id/daddr2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textinputborder"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:text="Address Line 2"
+            android:padding="10dp"
+            android:textSize="10sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/dstate"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight = "1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textinputborder"
+                android:layout_marginRight="20dp"
+                android:maxLines="1"
+                android:text="State"
+                android:padding="10dp"
+                android:textSize="12sp"/>
+
+            <EditText
+                android:id="@+id/dpin"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight = "1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textinputborder"
+                android:layout_marginRight="20dp"
+                android:maxLines="1"
+                android:text="Pin Code"
+                android:padding="10dp"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Order"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+</FrameLayout>

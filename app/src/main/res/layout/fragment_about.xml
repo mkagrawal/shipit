@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#223388"
+	    android:textSize="20sp"
+        android:text="ABOUT" />
+
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="63dp"
+        android:background="@color/facebook_official_blue"
+        android:gravity="center"
+        android:text="Developed by PrimStudios"
+        android:textColor="@color/facebook_off_white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:gravity="center"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="15sp"
+        android:textColor="@color/facebook_official_blue"
+        android:text="@string/about"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:onClick="visitPrimstudios"
+        android:src="@drawable/visit" />
+    
+</RelativeLayout>

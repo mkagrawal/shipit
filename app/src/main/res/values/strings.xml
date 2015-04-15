@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">shipit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ship_item">ShipItemActivity</string>
+    <string name="title_activity_sliding_main">SlidingMain</string>
+    <string name="help">The game begins with a grid containing 12 alphabets and a starting alphabet.You have to make a word using the alphabets in the grid staarting with the alphabet given. After that you will have to keep making words starting with the ending alphabet of the last world till the time is over. This is a multiplayer game and you will ranked based on your scores among other players playing the same over the world.</string>
+    <string name="about">For more details, visit www.primstudios.com</string>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/home</item>
+        <item>@drawable/home</item>
+        <item>@drawable/home</item>
+        <item>@drawable/home</item>
+        <item>@drawable/home</item>
+    </array>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>History</item>
+        <item>Status</item>
+        <item>Pricing</item>
+        <item>Help</item>
+    </string-array>
+
+
+
+</resources>
