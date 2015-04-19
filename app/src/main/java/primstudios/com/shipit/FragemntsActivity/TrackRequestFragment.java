@@ -1,6 +1,5 @@
 package primstudios.com.shipit.FragemntsActivity;
 
-import android.annotation.SuppressLint;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,10 +10,10 @@ import android.widget.LinearLayout;
 import primstudios.com.shipit.R;
 
 
-public class RankAndStatsFragment extends Fragment {
+public class TrackRequestFragment extends Fragment {
 	
 	LinearLayout linearLayout;
-	public RankAndStatsFragment(){}
+	public TrackRequestFragment(){}
 	
 	@Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

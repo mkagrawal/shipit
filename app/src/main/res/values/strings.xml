@@ -19,12 +19,23 @@
     </array>
 
     <string-array name="nav_drawer_items">
-        <item>Home</item>
-        <item>History</item>
-        <item>Status</item>
+        <item>Ship Now</item>
+        <item>Track Requests</item>
         <item>Pricing</item>
         <item>Help</item>
+        <item>About</item>
     </string-array>
+
+    <string name="title_activity_image_capture_proceed">ImageCaptureProceed</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_imagecaptured_proceed">ImagecapturedProceed</string>
+    <string name="standard_option_detail">Standard option details</string>
+    <string name="quick_option_detail">Quick option details</string>
+    <string name="quick_option_heading">Quick</string>
+    <string name="standard_option_heading">Default : standard</string>
+    <string name="thanks_text">Thanks for your request. We will contact you shortly. You can track your request in Track options.</string>
+
 
 
 

@@ -21,10 +21,10 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="63dp"
-        android:background="@color/facebook_official_blue"
+        android:background="@color/heading_color"
         android:gravity="center"
         android:text="Developed by PrimStudios"
-        android:textColor="@color/facebook_off_white"
+        android:textColor="@color/text_white"
         android:textSize="18sp" />
 
     <TextView
@@ -38,7 +38,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:textSize="15sp"
-        android:textColor="@color/facebook_official_blue"
+        android:textColor="@color/heading_color"
         android:text="@string/about"/>
 
     <ImageView

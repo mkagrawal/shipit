@@ -5,67 +5,128 @@
     android:background="?android:windowBackground"
     android:layout_height="match_parent" tools:context=".ItemDescription">
 
-
 <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:weightSum="20"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/itemDescriptionHeading"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:gravity="center"
+            android:text="Item Details"
+            android:textSize="25dp"
+            android:padding="10dp"
+            android:textColor="@color/text_white"
+            android:background="@color/heading_color"/>
+
+        <TextView
+            android:id="@+id/itemName"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Name of item:"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center_vertical"
+            android:text="Name of item (Optional):"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/itemNameEditText"
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="20dp"
             android:layout_height="0px"
-            android:background="@drawable/textinputborder"
+            android:layout_weight="10"
             android:layout_marginRight="20dp"
             android:maxLines="1"
             android:padding="10dp"
-            android:textSize="15sp"
-            android:layout_weight="2"/>
+            android:textSize="15sp"/>
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/itemWeight"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:text="Weight in Kgs (Optional):"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/itemWeightEditText"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/itemDetails"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="A little bit about item:"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center_vertical"
+            android:text="Item Dimension Details (Optional):"
             android:layout_marginLeft="20dp"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/itemDetailsEditText"
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
-            android:layout_height="0px"
+            android:layout_height="0dp"
+            android:layout_weight="20"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:background="@drawable/textinputborder"
             android:gravity="top|left"
             android:padding="10dp"
-            android:textSize="15sp"
-            android:layout_weight="10"/>
+            android:textSize="15sp"/>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView2"
-            android:src="@drawable/next"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="10dp"
-            android:onClick="goNext2"
-            android:layout_gravity="right" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
+            <TextView
+                android:id="@+id/snext"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="BACK"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/text_white"
+                android:background="@color/heading_color"
+                android:onClick="backFromDetails"/>
+
+            <TextView
+                android:id="@+id/sback"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_horizontal"
+                android:text="NEXT"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/text_white"
+                android:background="@color/heading_color"
+                android:onClick="nextFromDetails"/>
+        </LinearLayout>
     </LinearLayout>
-
 </FrameLayout>

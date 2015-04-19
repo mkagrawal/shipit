@@ -1,6 +1,5 @@
 package primstudios.com.shipit.FragemntsActivity;
 
-import android.annotation.SuppressLint;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,10 +10,10 @@ import android.widget.LinearLayout;
 import primstudios.com.shipit.R;
 
 
-public class FriendsActivitesFragment extends Fragment {
+public class PricingFragment extends Fragment {
 	
 	LinearLayout linearLayout;
-	public FriendsActivitesFragment(){}
+	public PricingFragment(){}
 	
 	@Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

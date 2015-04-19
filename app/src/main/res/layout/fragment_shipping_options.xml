@@ -1,0 +1,76 @@
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="400dp"
+        android:minWidth="300dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/shippingHeader"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:text="Shipping Options"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:background="@color/heading_color"
+            android:textColor="@color/text_white"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:background="@color/text_white"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/shippingOptionStandard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Standard"
+                android:onClick="onStandardRadioClicked"/>
+            <RadioButton android:id="@+id/shippingOptionQuick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quick"
+                android:onClick="onQuickRadioClicked"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/shippingOptionDetails"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:text="Shipping Options details"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/text_white"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/heading_color"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/okButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="OK"
+                android:textSize="30sp"
+                android:textColor="@color/text_white"
+                android:background="@color/heading_color"
+                android:onClick="okButtonClick"/>
+        </LinearLayout>
+    </LinearLayout>

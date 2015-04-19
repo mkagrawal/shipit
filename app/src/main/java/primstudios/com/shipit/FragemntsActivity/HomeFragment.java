@@ -1,6 +1,5 @@
 package primstudios.com.shipit.FragemntsActivity;
 
-import android.annotation.SuppressLint;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,17 +8,14 @@ import android.view.ViewGroup;
 
 import primstudios.com.shipit.R;
 
-
 public class HomeFragment extends Fragment {
 	
-	public HomeFragment(){}
+	public HomeFragment() {
+    }
 	
 	@Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState) {
- 
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
-         
         return rootView;
     }
 	
